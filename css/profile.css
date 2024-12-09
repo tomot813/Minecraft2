@@ -5,7 +5,7 @@
     text-align: center;
     margin-top: -7vw;
         
-    height: 110.24%;
+    height: 52vw;
     width: 20vw;
     z-index: 1;
 }
@@ -14,7 +14,7 @@
     margin-top: 15vw;
     height: 8vw;
     width: 8vw;
-    border-radius: 50%;
+    border-radius: 500vw;
     border: 0.05vw, solid, rgb(93, 93, 93);
 
 }
