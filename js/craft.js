@@ -59,7 +59,7 @@ function craft(){
 
 
     if(current_slide == 0){
-        crafting("", "", "", "../img/item/plank.png", "../img/item/plank.png", "", "../img/item/plank.png", "../img/item/plank.png", "");
+        crafting("", "", "", "./img/item/plank.png", "./img/item/plank.png", "", "./img/item/plank.png", "./img/item/plank.png", "");
     }else if(current_slide == 1){
         crafting("", "", "", "", "../img/item/redstone.png", "", "", "../img/item/stick.png", "");
     }else if(current_slide == 2){
