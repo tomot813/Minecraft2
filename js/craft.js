@@ -71,7 +71,7 @@ function craft(){
     }else if(current_slide == 4){
         crafting("../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png");
     }else if(current_slide == 5){
-        crafting("../img/item/milk_bucket.png", "../img/item/milk_bucket.png", "../img/item/milk_bucket.png", "../img/item/sugar.png", "../img/item/egg.png", "../img/item/sugar.png", "../img/item/wheat.png", "../img/item/wheat.png", "../img/item/wheat.png");
+        crafting("../img/item/milk_bucket.png", "../img/item/milk_bucket.png", "../img/item/milk_bucket.png", "./img/item/sugar.png", "../img/item/egg.png", "../img/item/sugar.png", "../img/item/wheat.png", "../img/item/wheat.png", "../img/item/wheat.png");
     
     }else if(current_slide == 6){
         crafting("../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png");
