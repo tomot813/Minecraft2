@@ -1,0 +1,23 @@
+footer{
+    background-color: black;
+    height: 25vw;
+    width: 100%;
+    justify-items: center;
+
+    z-index: 2;
+}
+footer a img{
+    height: 5vw;
+    width: 5vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+footer h1{
+    padding-top: 3vw;
+}
+footer h2 {
+    padding-top: 3vw;
+}
+
+
+

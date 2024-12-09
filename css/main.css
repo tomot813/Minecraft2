@@ -1,0 +1,442 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./craft.css";
+@import "./mob.css";
+@font-face {
+    font-family: 'MinecraftTen';
+    src: url("../font/MinecraftTen-VGORe.ttf") format("truetype"); 
+    font-style: normal;
+    font-weight: normal;
+    }
+
+
+body{
+    background-color: rgb(52, 153, 52);
+    font-family:'MinecraftTen';
+    text-shadow: 0vw 0.3vw 0vw rgb(98, 98, 98);
+    color: white;
+    font-size: 2vw;
+
+}
+
+
+
+/* --------------------| container-main |---------------------------------- */
+.container-main{
+    background-image: url(../img/crlli0xdx1u71.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+    width: 100%;
+    height: 70vw;
+    
+
+}
+.container-main h1{
+    font-size:5.5vw;
+    color: white;
+    text-align: center;
+    padding: 14vw; /* 6vw*/
+}
+
+
+/* --------------------| container-text |---------------------------------- */
+.container-text{
+    background-image: url(../img/gray_cont.png);
+    background-position: right;
+    background-size:cover;
+    margin-top: -20vw;
+    padding: 20vw;
+
+    font-size: 2vw;
+
+    width: 100%;
+    height: 70vw;
+}
+
+
+
+/* --------------------| container-craft |---------------------------------- */
+.container-craft:not(.input .container-mobs){
+    background-image: url(../img/white_cont.png);
+    background-position: left;
+    background-size:cover;
+    margin-top: -20vw;
+
+    width: 100%;
+    height: 65vw;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем содержимое */
+    overflow: visible;
+    
+}
+.hidden_item{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 9.5vw;
+}
+.craft-table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1vw; 
+
+    width: 30vw; 
+    height: 30vw;
+    
+    padding-top: 10%;
+    padding-left: 10vw;
+}
+
+.craft-box{
+    background-color:  rgb(131, 131, 131);
+
+    border: 0.5vw, solid, rgb(108, 108, 108);
+
+    height: 10vw;
+    width: 10vw;
+    display: flex; /* Центровка текста внутри, если нужно */
+    align-items: center;
+    justify-content: center;
+
+}
+.craft-box {
+    height: 10vw;
+    width: 10vw;
+}
+
+.item{
+
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 15vw;
+
+}
+
+.btn_craft{
+    background-color: rgb(114, 114, 114);
+    height: 3.2vw;
+    width: 15vw;
+    box-shadow: 0vw 0.5vw 0vw rgb(79, 79, 79);
+    
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-2%, -50%);
+
+
+}
+
+.btn_forward{
+    background-color: rgb(114, 114, 114);
+    height: 5vw;
+    width: 5vw;
+    box-shadow: 0vw 0.5vw 0vw rgb(79, 79, 79);
+        
+    position: absolute;
+    top: 55%;
+    left: 90%;
+    transform: translate(-20%, -50%);
+}
+
+.input{
+    position: absolute;
+    font-size: 2vw;
+    background-color: rgb(111, 111, 111);
+    border: 0.5vw, solid, rgb(93, 93, 93);
+    
+    z-index: 1;
+    margin-left: 19.7vw;
+    margin-top: -50vw;
+    
+    text-align: center;
+
+    height: 17vw;
+    width: 60vw;
+}
+.input h1{
+    font-size:5vw;
+    margin-bottom: 1vw;
+}
+.input h2{
+    font-size:1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.input input{
+    background-color: white;
+    box-shadow: 0vw 0.5vw 0vw rgb(125, 125, 125);
+    color: rgb(77, 77, 77);
+    margin-right: 1vw;
+
+    height: 3vw;
+    width: 30vw;
+}
+
+.input button{
+    background-color: rgb(61, 120, 61);
+    height: 3.2vw;
+    width: 15vw;
+    box-shadow: 0vw 0.5vw 0vw rgb(42, 68, 42);
+
+}
+
+.input p{
+    margin-top: 1vw;
+    color: red;
+}
+
+
+/* --------------------| container-mobs |---------------------------------- */
+.container-mobs{
+    position: absolute;
+
+    background-image: url(../img/gray_cont.png);
+    background-position: right;
+    background-size:cover;
+    margin-top: -14vw;
+    padding-top: 10vw;
+    width: 100%;
+    height: 60vw;
+}
+
+.container-mobs h1{
+    font-size: 6vw;
+    text-align: center;
+    margin-left: 0vw;
+    margin-top: -10vw;
+    margin-bottom: 5vw;
+}
+
+.mob-dis{
+        position: absolute;
+            font-size: 2vw;
+            background-color: rgb(111, 111, 111);
+            border: 0.5vw, solid, rgb(93, 93, 93);
+            padding: 1vw;
+            z-index: 1;
+            top: 40%;
+            left: 40%;
+        
+            text-align: center;
+        
+            height: 20vw;
+            width: 40vw;
+}
+
+
+/* --------------------| container-quest |---------------------------------- */
+
+.container-quest {
+    background-color: rgb(52, 153, 52);
+    margin-top: 46vw;
+    width: 100%;
+    height: 85vw;
+
+    text-align: center;
+}
+
+.container-quest h1{
+    font-size: 6vw;
+
+}
+.test-form {
+    display: flex;
+    flex-direction: row;
+    margin-left: -3vw;
+    margin-top: 3vw;
+
+}
+.test-form p {
+    padding-left: 10vw;
+}
+.q-radio{
+    padding-left: 0.1vw;
+    padding-top: 0.7vw;
+    margin-left: -8.5vw;
+}
+
+
+
+.test-column-one {
+    margin-left: 3vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 50vw;
+    width: 50vw;
+}
+
+.test-column-one h2 {
+    margin-bottom: 3vw;
+}
+
+.test-column-one p {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 10vw;
+
+    font-size: 2vw;
+
+    height: 3vw;
+    width: 4vw;
+}
+.q1{
+    margin-bottom: 3vw;
+}
+.q2 {
+    margin-bottom: 3vw;
+}
+
+
+.q1 input {
+    appearance: none;
+
+    
+    margin-top: 0.1vw;
+    margin-right: 1vw;
+
+    width: 2vw;
+    height: 1vw;
+    border: 0.7vw solid #ffffff;
+    transition: 0.2s all linear;
+
+    position: relative;
+    top: 10%;
+}
+
+.q1 input:checked {
+    border: 0.7vw solid rgb(55, 55, 55);
+}
+
+.q2 input{
+    appearance: none;
+    
+    margin-top: 0.1vw;
+    margin-right: 1vw;
+    
+    width: 2vw;
+    height: 1vw;
+    border: 0.7vw solid #ffffff;
+    transition: 0.2s all linear;
+    
+    position: relative;
+    top: 10%;
+}
+
+.q2 input:checked {
+    border: 0.7vw solid rgb(55, 55, 55);
+}
+
+
+
+.q3 input {
+    appearance: none;
+
+    margin-top: 0.1vw;
+    margin-right: 1vw;
+
+    width: 2vw;
+    height: 1vw;
+    border: 0.7vw solid #ffffff;
+    transition: 0.2s all linear;
+
+    position: relative;
+    top: 10%;
+}
+
+.q3 input:checked {
+    border: 0.7vw solid rgb(55, 55, 55);
+}
+
+
+
+.border{
+    background-color: rgb(255, 255, 255);
+    margin-left: 3vw;
+    
+    height: 65vw;
+    width: 0.3vw;
+}
+
+
+
+
+
+
+.test-column-two{
+    margin-left: 3vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 50vw;
+    width: 50vw;
+}
+
+.test-column-two h2{
+    margin-bottom: 7vw;
+}
+
+.test-column-two input {
+    background-color: white;
+    box-shadow: 0vw 0.5vw 0vw rgb(125, 125, 125);
+    color: rgb(77, 77, 77);
+
+    margin-bottom: 8.9vw;
+
+    height: 3vw;
+    width: 30vw;
+}
+
+.true_text{
+    opacity: 0;
+    color: #cdcdcd;
+}
+.q4{
+    position: absolute;
+    top: 510%;
+}
+.q5 {
+    position: absolute;
+    top: 556%;
+}
+.q6 {
+    position: absolute;
+    top: 603%;
+}
+
+
+
+.test{
+    background-color: rgb(61, 120, 61);
+    height: 4vw;
+    width: 20vw;
+    box-shadow: 0vw 0.5vw 0vw rgb(42, 68, 42);
+
+
+    position: absolute;
+    top: 625%;
+    left: 35%;
+}
+
+.reset{
+    background-color: rgb(184, 105, 98);
+    height: 4vw;
+    width: 10vw;
+    box-shadow: 0vw 0.5vw 0vw rgb(68, 51, 42);
+
+
+    position: absolute;
+    top: 625%;
+    left: 57%;
+}

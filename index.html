@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body> 
+
+    <header id="down_header">
+        <a href="#main"  class="logo"><img src="./img/Minecraft-Logo.png" alt=""></a>
+
+        <ul class="pages">
+
+            <li><a href="#about"> about</a></li>
+            <li><a href="#craft"> craft</a></li>
+            <li><a href="#mobs"> mobs</a></li>
+            <li><a href="#quest"> quest</a></li>
+            <li><a href="./html/profile.html" id="username"></a></li>
+        </ul>
+    </header>
+    <div class="black-background"></div>
+
+
+    <main>
+        <!-------------------| container-main |------------------------------>
+        <div class="container-main" id="main">
+            <h1>Create. Explore. Survive.</h1>
+        </div>
+
+
+
+
+        <!-------------------| container-text |------------------------------>
+        <div class="container-text" id="about">
+
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis ducimus voluptatum? Magnam
+                temporibus odio provident voluptatum ut ipsum facere delectus! Enim totam necessitatibus optio recusandae, laborum
+                corporis maiores dolor cupiditate at vitae cumque culpa et debitis, expedita cum quae iure sequi ad reprehenderit
+                officiis nulla quaerat? Possimus, quo excepturi.</h1>
+
+        </div>
+        
+
+
+
+        <!-------------------| container-craft |------------------------------>
+        <div class="container-craft" id="craft">  
+            <div class="input">
+                <h1>CRAFT</h1>
+                <h2>Enter the name of the Item</h2>
+                <input type="text" id="input_search_item">
+                <button id="btn_search">Search</button>
+                <p id="erorr_output"></p>
+            </div>
+            
+            <div class="hidden_item">
+                <div class="craft-table">
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-1"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-2"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-3"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-4"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-5"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-6"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-7"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-8"></div>
+                    <div class="craft-box"><img src="" alt="" id="craft-box-img-9"></div>
+                </div> 
+                <button class="btn_craft" id="btn_craft"><<<</button>
+            
+            
+            
+                <div class="item">
+
+                    <button class="btn_forward" id="btn_forward">V</button>
+
+                <div class="slids">
+                    <div class="def">
+                        <p class="item_name">crafting table</p>
+                        <img src="./img/item/crafting_table.png" alt="" class="item-img">
+                    </div>
+                    <div class="def">
+                        <p class="item_name">redstone torch</p>
+                        <img src="./img/item/redstone_torch.png" alt="" class="item-img" id="redstone_torch">
+                    </div>
+                    <div class="def">
+                        <p class="item_name">jukebox</p>
+                        <img src="./img/item/jukebox.png" alt="" class="item-img">
+                    </div>
+                    <div class="def">
+                        <p class="item_name">wooden pickaxe</p>
+                        <img src="./img/item/wooden_pickaxe.png" alt="" class="item-img">
+                    </div>
+                    <div class="def">
+                        <p class="item_name">chest</p>
+                        <img src="./img/item/chest.png" alt="" class="item-img">
+                    </div>
+                    <div class="def">
+                        <p class="item_name">cake</p>
+                        <img src="./img/item/cake.png" alt="" class="item-img">
+                    </div>
+                    <div class="def">
+                        <p class="item_name">tnt</p>
+                        <img src="./img/item/tnt.png" alt="" class="item-img">
+                    </div>
+                    <div class="def">
+                        <p class="item_name">plank</p>
+                        <img src="./img/item/plank.png" alt="" class="item-img">
+                        <h1>4</h1>
+                    </div>
+                    <div class="def">
+                        <p class="item_name">compass</p>
+                        <img src="./img/item/compass.gif" alt="" class="item-img">
+                    </div>
+
+                    <div class="def"></div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        </div>
+
+
+
+
+        <!-------------------| container-mobs |------------------------------>
+        <div class="container-mobs" id="mobs">   
+
+            
+            <div class="slids-mob">
+
+                    <div class="def-mob">
+                        <img src="./img/gif/1643028441_biological-optimization-2.gif" alt="" >
+                    </div>
+                    <div class="def-mob">
+                        <img src="./img/gif/zomb.gif" alt="" style="scale: 2;">
+                    </div>
+            </div>
+
+            <div class="mob-dis">
+                <h1>MOBS</h1>
+
+                <p id="mob_dis">
+                </p>
+            </div>
+            <button class="btn_forward" id="btn_forward_mob">>></button>
+
+
+        </div>
+
+        <!-------------------| container-quest |------------------------------>
+        <div class="container-quest" id="quest">
+            <h1>TEST</h1>
+
+            <form name="test_form" novalidate class="test-form">
+                <div class="test-column-one">
+                    <div class="q1">
+                        <h2>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                        <p class="true"><input type="radio"  name="q1" class="q-radio" value="true">Live</p>
+                        <p><input type="radio" name="q1" class="q-radio">Live</p>
+                        <p><input type="radio" name="q1" class="q-radio">Live</p>
+                        <p><input type="radio" name="q1" class="q-radio">Live</p>
+
+                    </div>
+
+                    <div class="q2">
+                        <h2>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                        <p><input type="radio" name="q2" class="q-radio">Live</p>
+                        <p><input type="radio" name="q2" class="q-radio">Live</p>
+                        <p class="true"><input type="radio" name="q2" class="q-radio" value="true">Live</p>
+                        <p><input type="radio" name="q2" class="q-radio">Live</p>
+
+                    </div>
+
+                    <div class="q3">
+                        <h2>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                        <p><input type="radio" name="q3" class="q-radio">Live</p>
+                        <p><input type="radio" name="q3" class="q-radio">Live</p>
+                        <p><input type="radio" name="q3" class="q-radio">Live</p>
+                        <p class="true"><input type="radio" name="q3" class="q-radio" value="true">Live</p>
+
+                    </div>
+                </div>
+                <div class="border"></div>
+                
+
+                <div class="test-column-two">
+                    <h2>4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                    <input type="text" id="q4" name="q4" required pattern="[lL]ive">
+                    <label for="q4" class="q4 true_text">Live</label>
+
+                    <h2>5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                    <input type="text" id="q5" name="q5" required pattern="[dD]ragon">
+                    <label for="q5" class="q5 true_text">Dragon</label>
+
+                    <h2>6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                    <input type="text" id="q6" name="q6" required pattern="[bB]edrock">
+                    <label for="q6" class="q6 true_text">Bedrock</label>
+                </div>
+                
+                <button type="submit" class="test" >send</button>
+            </form>
+
+            <button id="reset" class="reset">reset</button>
+
+
+        </div>
+
+
+        
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <h1>Follow Minecraft</h1>
+
+        <div>
+            <a href=""><img src="./img/socials/facebook.png" alt=""></a>
+            <a href=""><img src="./img/socials/instagram.png" alt=""></a>
+            <a href=""><img src="./img/socials/pinterest.png" alt=""></a>
+            <a href=""><img src="./img/socials/telegram.png" alt=""></a>
+            <a href=""><img src="./img/socials/twitter.png" alt=""></a>
+            <a href=""><img src="./img/socials/youtube.png" alt=""></a>
+        </div>
+        <h2>© 2024 Mojang AB. TM Microsoft Corporation.</h2>
+    </footer>
+
+
+
+
+
+<script src="./js/craft.js"></script>
+
+<script src="./js/mob.js"></script>
+
+<script src="./js/profile.js"></script>
+
+<script src="./js/test.js"></script>
+
+</body>
+</html>
+
+
+
+
+<!--
+
+    overflow: hidden; /* Прячем содержимое за пределами контейнера */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем содержимое */
+    align-items: center;
+-->

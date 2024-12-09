@@ -1,0 +1,53 @@
+#down_header {
+    height: 6vw;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    cursor: pointer;
+    display: flex;
+
+    box-shadow: 0vw 0.4vw 0vw rgba(48, 48, 48, 0.8);
+
+    backdrop-filter: blur(5vw);
+    background-color: rgba(43, 43, 43, 0.926);
+}
+.black-background{
+    height: 6vw;
+    width: 100%;
+
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    height: 2vw;
+    width: 20vw;
+    position: absolute;
+    top: -40%;
+    left: 5%;
+}
+
+
+.pages {
+    display: flex;
+    margin-right: 3vw;
+    padding-top: 1vw;
+    margin-left: 25vw;
+}
+
+.pages li {
+    padding-left: 5vw;
+    font-size: 3vw;
+}
+
+.pages li a {
+    color: white;
+    font-size: 2vw; 
+    
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#username{
+    margin-left: 7vw;
+}

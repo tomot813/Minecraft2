@@ -1,0 +1,54 @@
+:root{
+    --el : 0
+}
+
+.def img {
+    height: 10vw;
+    width: 10vw;
+
+    
+    
+}
+.craft-table{
+    transition: 1s;
+
+}
+
+.def{
+
+    transition: 1s;
+    transform: translateY(var(--el));
+}
+.def p {
+    font-size: 0vw;
+}
+.def h1{
+    font-size: 3vw;
+    text-align: right;
+    margin-top: -3vw;
+}
+
+
+.slids{
+
+
+    height: 20vw; /* Фиксированная высота для отображения центрального слайда */
+}
+
+
+.def.active {
+    filter: blur(0); /* Убираем размытие для центрального слайда */
+    opacity: 1; /* Полная видимость */
+    background-color:  rgb(131, 131, 131);
+
+    border: 0.5vw, solid, rgb(108, 108, 108);
+
+}
+
+.def.hidden {
+    filter: blur(0.5vw); /* Убираем размытие для центрального слайда */
+    opacity: 0,5; /* Полная видимость */
+z-index: 0;
+}
+
+/*----------------------*/

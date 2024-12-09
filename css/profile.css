@@ -1,0 +1,54 @@
+.userinfo{
+    position: absolute;
+    font-size: 2vw;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    margin-top: -7vw;
+        
+    height: 110.24%;
+    width: 20vw;
+    z-index: 1;
+}
+
+.ava{
+    margin-top: 15vw;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    border: 0.05vw, solid, rgb(93, 93, 93);
+
+}
+
+.userinfo h1{
+    color: black;
+    text-shadow: 0vw 0vw 0vw rgb(98, 98, 98);
+    font-size: 3vw;
+    margin-top: 1vw;
+}
+.userinfo h2 {
+    color: rgb(76, 76, 76);
+    text-shadow: 0vw 0vw 0vw rgb(98, 98, 98);
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+.userinfo button{
+    margin-top: 15vw;
+    color: rgb(223, 52, 52);
+}
+
+
+.result{
+    text-align: center;
+    margin-left: 15vw;
+    margin-top: -3vw;
+    margin-bottom: 3vw;
+}
+.result img{
+    height: 30vw;
+    width: 30vw;
+}
+.result h1{
+    font-size: 5vw;
+    margin-top: 1vw;
+}

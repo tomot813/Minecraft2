@@ -1,0 +1,30 @@
+:root {
+    --ex: 0
+}
+
+.def-mob img {
+    height: 50vw;
+    width: 30vw;
+}
+
+.def-mob {
+    transition: 1s;
+    transform: translateY(var(--ex));
+}
+
+.def-mob p {
+    font-size: 0vw;
+}
+
+
+
+
+.slids-mob {
+    margin-left: 5vw;
+    overflow: hidden;
+        height: 50vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+}
+
