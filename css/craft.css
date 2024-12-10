@@ -34,13 +34,13 @@
 .slids{
 
 
-    height: 20vw; /* Фиксированная высота для отображения центрального слайда */
+    height: 20vw; 
 }
 
 
 .def.active {
-    filter: blur(0); /* Убираем размытие для центрального слайда */
-    opacity: 1; /* Полная видимость */
+    filter: blur(0); 
+    opacity: 1; 
     background-color:  rgb(131, 131, 131);
 
     border: 0.5vw, solid, rgb(108, 108, 108);
@@ -48,9 +48,13 @@
 }
 
 .def.hidden {
-    filter: blur(0.5vw); /* Убираем размытие для центрального слайда */
-    opacity: 0,5; /* Полная видимость */
-z-index: 0;
+    filter: blur(0.5vw); 
+    opacity: 0,5; 
+    z-index: 0;
+}
+
+.def.hidden p {
+    font-size: 0vw;
 }
 
 /*----------------------*/
