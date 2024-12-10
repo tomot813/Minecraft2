@@ -39,7 +39,7 @@ test.addEventListener('submit', (event)=>{
 
     sessionStorage.setItem("result", count);
 
-    document.getElementById("result-main").innerText = count;
+    document.getElementById("result-main").innerText = "result: " + count;
 
 })
 
