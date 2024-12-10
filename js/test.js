@@ -56,6 +56,29 @@ function reset(){
     for (i = 0; i < answer2.length; i++) {
         answer2[i].style.opacity = 0;
     }
+
+
+
+    test.elements.q1[0].checked = false
+    test.elements.q1[1].checked = false
+    test.elements.q1[2].checked = false
+    test.elements.q1[3].checked = false
+
+        
+    test.elements.q2[0].checked = false
+    test.elements.q2[1].checked = false
+    test.elements.q2[2].checked = false
+    test.elements.q2[3].checked = false
+
+    test.elements.q3[0].checked = false
+    test.elements.q3[1].checked = false
+    test.elements.q3[2].checked = false
+    test.elements.q3[3].checked = false
+
+    test.elements.q4.value = "";
+    test.elements.q5.value = "";
+    test.elements.q6.value = "";
+
 }
 
 
