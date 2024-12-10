@@ -19,14 +19,16 @@ body{
 
     text-align: center;
         
-    height: 24vw;
+    height: 27vw;
     width: 40vw;
 }
 
-#erorr_output{
+.erorr_output{
     color: rgb(228, 30, 30);
     text-shadow: 0vw 0vw 0vw rgb(98, 98, 98);
-
+    opacity: 0;
+    margin-top: -0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 .login-box h1{
