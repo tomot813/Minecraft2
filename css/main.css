@@ -336,7 +336,7 @@ body{
     transition: 0.2s all linear;
 
     position: relative;
-    top: 0.3vw;
+    top: 0vw;
 }
 
 .q1 input:checked {
@@ -355,7 +355,7 @@ body{
     transition: 0.2s all linear;
     
     position: relative;
-    top: 0.3vw;
+    top: 0vw;
 }
 
 .q2 input:checked {
@@ -376,7 +376,7 @@ body{
     transition: 0.2s all linear;
 
     position: relative;
-    top: 0.3vw;
+    top:0vw;
 }
 
 .q3 input:checked {
