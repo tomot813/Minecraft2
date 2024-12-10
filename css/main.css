@@ -456,7 +456,7 @@ body{
 
     position: absolute;
     top: 85vw;
-    left: 35vw;
+    left: 32vw;
 }
 
 .reset{
@@ -468,5 +468,11 @@ body{
 
     position: absolute;
     top: 85vw;
-    left: 57vw;
+    left: 53vw;
+}
+
+
+.result{
+    margin-top: 10vw;
+
 }

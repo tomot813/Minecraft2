@@ -1,5 +1,6 @@
 let test  = document.forms.test_form;
 
+
 test.addEventListener('submit', (event)=>{
     event.preventDefault();
     let count = 0;
@@ -38,7 +39,8 @@ test.addEventListener('submit', (event)=>{
 
     sessionStorage.setItem("result", count);
 
-    alert("Поздравляю ваш результат " + count);
+    document.getElementById("result-main").innerText = count;
+
 })
 
 
@@ -58,6 +60,7 @@ function reset(){
     }
 
 
+    document.getElementById("result-main").innerText = "";
 
     test.elements.q1[0].checked = false
     test.elements.q1[1].checked = false
