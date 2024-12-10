@@ -20,7 +20,9 @@
     transform: translateY(var(--el));
 }
 .def p {
-    font-size: 0vw;
+    font-size: 1.5vw;
+    position: absolute;
+    top:0vw;
 }
 .def h1{
     font-size: 3vw;
