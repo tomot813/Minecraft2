@@ -10,7 +10,7 @@ let result = sessionStorage.getItem("result");
 
 
 if(!login || !date){
-    window.location.href = "./html/singin.html"
+    window.location.href = "../html/singin.html"
 
 }else{
     document.getElementById("username").innerText = login;
@@ -25,7 +25,7 @@ function clearDate(){
     sessionStorage.removeItem("login"); //localStorage || sessionStorage
     sessionStorage.removeItem("date"); //localStorage || sessionStorage
 
-    window.location.href = "./html/singin.html"
+    window.location.href = "../html/singin.html"
 }
 
 document.getElementById("logout").addEventListener('click', clearDate);
