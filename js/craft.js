@@ -49,7 +49,7 @@ function forward() {
 
     document.documentElement.style.setProperty("--el", (x - 1) * (-10) + "vw")
 
-    crafting("", "", "", "", "", "", "", "", "");
+    crafting("../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png");
 
 }
 
@@ -59,26 +59,26 @@ function craft(){
 
 
     if(current_slide == 0){
-        crafting("", "", "", "../img/item/plank.png", "../img/item/plank.png", "", "../img/item/plank.png", "../img/item/plank.png", "");
+        crafting("../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/item/plank.png", "../img/item/plank.png", "../img/empty.png", "../img/item/plank.png", "../img/item/plank.png", "../img/empty.png");
     }else if(current_slide == 1){
-        crafting("", "", "", "", "../img/item/redstone.png", "", "", "../img/item/stick.png", "");
+        crafting("../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/item/redstone.png", "../img/empty.png", "../img/empty.png", "../img/item/stick.png", "../img/empty.png");
     }else if(current_slide == 2){
         crafting("../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/diamond.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png");
         
     }else if(current_slide == 3){
-        crafting("../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "", "../img/item/stick.png", "", "", "../img/item/stick.png", "");
+        crafting("../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/empty.png", "../img/item/stick.png", "../img/empty.png", "../img/empty.png", "../img/item/stick.png", "../img/empty.png");
         
     }else if(current_slide == 4){
-        crafting("../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png");
+        crafting("../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/empty.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png", "../img/item/plank.png");
     }else if(current_slide == 5){
         crafting("../img/item/milk_bucket.png", "../img/item/milk_bucket.png", "../img/item/milk_bucket.png", "../img/item/sugar.png", "../img/item/egg.png", "../img/item/sugar.png", "../img/item/wheat.png", "../img/item/wheat.png", "../img/item/wheat.png");
     
     }else if(current_slide == 6){
         crafting("../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png", "../img/item/sand.png", "../img/item/gunpowder.png");
     }else if(current_slide == 7){
-        crafting("", "", "", "", "./img/item/oak_wood.png", "", "", "", "");
+        crafting("../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/item/oak_wood.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png");
     }else if(current_slide == 8){
-        crafting("", "../img/item/iron_ingot.png", "", "../img/item/iron_ingot.png", "../img/item/redstone.png", "../img/item/iron_ingot.png", "", "../img/item/iron_ingot.png", "");
+        crafting("../img/empty.png", "../img/item/iron_ingot.png", "../img/empty.png", "../img/item/iron_ingot.png", "../img/item/redstone.png", "../img/item/iron_ingot.png", "../img/empty.png", "../img/item/iron_ingot.png", "../img/empty.png");
         
     }
 }
@@ -134,7 +134,9 @@ function search(){
         array[current_slide].classList.remove('hidden');
         array[current_slide].classList.add('active');
         
-        crafting("", "", "", "", "", "", "", "", "");
+
+    crafting("../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png", "../img/empty.png");
+
         document.documentElement.style.setProperty("--el", (x - 1) * (-10) + "vw")
         user_input.value = "";
     }else{
