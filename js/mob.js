@@ -1,4 +1,4 @@
-let y = 4;
+let y = 1;
 
 let array1 = document.getElementsByClassName('def-mob');
 
