@@ -7,8 +7,6 @@ function forward1() {
 
     if (y < array1.length) {
         y++
-    } else {
-        y = 1
     }
 
     document.documentElement.style.setProperty('--ex', (y-1) * (-50) + "vw");
@@ -23,8 +21,6 @@ function backward1(){
 
     if (y > 1) {
         y--;
-    } else {
-        y = array1.length;
     }
 
     document.documentElement.style.setProperty('--ex', (y-1) * (-50) + "vw");
