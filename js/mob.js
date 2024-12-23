@@ -43,11 +43,11 @@ function selectMob(){
         document.getElementById("mob_dis").innerText = "The zombie is a classic hostile mob that roams at night or in dark areas, attacking players and villagers on sight. Slow-moving but persistent, zombies can spawn in groups and are dangerous in numbers. When defeated, they drop rotten flesh, which can be used as a resource in certain situations.";
 
     }else if(y == 3){
-        document.getElementById("mob_dis").innerText = "";
+        document.getElementById("mob_dis").innerText = "The Creeper is an iconic hostile mob known for its ability to silently approach players before exploding. It moves slowly but unpredictably, making it difficult to anticipate when it will strike. Creepers often sneak up on players, detonating with a loud blast that can cause significant damage to both players and the environment.";
     }else if(y == 4){
-        document.getElementById("mob_dis").innerText = "";
+        document.getElementById("mob_dis").innerText = "The Frog is a passive mob that can be found in swamp biomes. It hops around and occasionally catches and eats small insects like fireflies. Frogs are known for their unique jumping ability, which allows them to navigate both land and water with ease.";
     }else if(y == 5){
-        document.getElementById("mob_dis").innerText = "";
+        document.getElementById("mob_dis").innerText = "he Bee is a neutral mob that thrives in flower-rich biomes. They play a crucial role in pollination, helping flowers grow and contributing to the production of honey. Bees are typically peaceful but will become aggressive if provoked, stinging the player in defense.";
     }
 }
 
